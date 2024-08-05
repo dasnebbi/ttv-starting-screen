@@ -1,0 +1,69 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    padding: 0;
+    margin: 0;
+    background: rgba(18, 74, 103, 1);
+}
+
+.main {
+    background: url("./images/background.png") no-repeat;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    padding: 0;
+    margin: 0;
+    z-index: 3 !important;
+}
+
+.left,
+.center,
+.right,
+.full {
+    position: absolute;
+    top: 135px;
+}
+
+.left,
+.center,
+.right {
+    display: block;
+    z-index: -1;
+    height: 808px;
+    width: 539px;
+}
+
+.left {
+    left: 103px;
+}
+
+.center {
+    left: 690px;
+}
+
+.right {
+    left: 1277px;
+}
+
+.regular img.left,
+.regular img.center,
+.regular img.right {
+    width: 566px;
+    height: 848px;
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -24px;
+}
+
+.full {
+    left: 103px;
+    width: 1713px;
+}
+
+.regular,
+.wide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
